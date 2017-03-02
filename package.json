@@ -1,0 +1,22 @@
+{
+  "name": "bchk-wrap",
+  "version": "1.0.0",
+  "main": "dist/wrap.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "http-server -c-1 -p 3333 > /dev/null & webpack --watch"
+  },
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "http-server": "^0.9.0",
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "styled-components": "^1.3.1"
+  }
+}
